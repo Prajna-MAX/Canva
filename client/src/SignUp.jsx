@@ -25,7 +25,7 @@ function SignUp() {
       return;
     }
 
-    axios.post('https://canva-qzw3.onrender.com/register', {
+    axios.post('http://localhost:3001/register', {
       name: formData.name,
       email: formData.email,
       password: formData.password
