@@ -1,0 +1,54 @@
+.menu-bar {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .menu-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    background-color: #05468c;
+    height: 80px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+ /* Canva.css */
+
+.menu-bar button {
+    margin-right: 8px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .menu-bar button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .menu-bar .active-tool {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  
+  .active-tool {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #0056b3;
+  }
+  
+  
+  canvas {
+    border: 2px solid #000;
+    background-color: white;
+    display: block;
+  }
+  
